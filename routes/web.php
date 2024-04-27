@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/jobs', function () {
+    // Redirect to the specified view
+    return view('jobs.job-listing');
+});
+
+Route::get('/job', function () {
+    // Redirect to the specified view
+    return view('jobs.job-single');
+});
