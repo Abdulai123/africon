@@ -8,7 +8,7 @@ Our endeavor is divided into four integral parts, each crucial for the success o
 
 - 1. Job Search in Africa: This segment entails creating a comprehensive platform for job seekers to explore opportunities categorized by area, community, and companies. Additionally, companies will have the capability to post their job openings, fostering a symbiotic ecosystem.
 
-     
+
 - 2. Africa Dev Communities: We aspire to establish vibrant online communities for developers across various African nations. Here, they can engage in meaningful discussions, share insights, and collaborate on innovative projects, transcending geographical boundaries.
 
 - 3. Learning Hub for Africans: Empowering individuals across Africa with the tools to learn programming and other valuable skills is at the core of our vision. We will curate an extensive repository of resources, complete with URLs for convenient access. Learners can track their progress, mark completion, and seamlessly transition to the next course.
@@ -20,3 +20,12 @@ Our endeavor is divided into four integral parts, each crucial for the success o
 Let's embark on this journey together, fueled by passion, innovation, and a shared commitment to empower Africa's tech community. Let's make Africon not just a project, but a catalyst for positive change in the African tech landscape.
 
 let start
+
+job posting table
+
+id, user_id, title, description, 
+location, type, encourage type, 
+experience, education, pay, skills, deadline, language, status, visibility, 
+
+comapny table
+id, user_id, name, description, indestery, website, contact, est. location
