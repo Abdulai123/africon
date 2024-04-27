@@ -16,7 +16,8 @@ class JobController extends Controller
     public function index()
     {
         //
-        return view('Jobs.job-listing');
+        $jobs = Job::all();
+        return view('Jobs.job-listing', compact('jobs'));
     }
 
     /**
@@ -37,28 +38,27 @@ class JobController extends Controller
      */
     public function store(StoreJobRequest $request)
     {
-        
-    // Get the data from the request
-    $job                    = new Job();
-    $job->user_id           = auth()->user()->id;
-    $job->title             = $request->title;
-    $job->description       = $request->description;
-    $job->location          = $request->location;
-    $job->type              = $request->type;
-    $job->encourage_type    = $request->encourage_type;
-    $job->experience        = $request->experience;
-    $job->education         = $request->education;
-    $job->pay               = $request->pay;
-    $job->skills            = $request->skills;
-    $job->deadline          = $request->deadline;
-    $job->language          = $request->language;
-    $job->status            = $request->status;
-    $job->visibility        = $request->visibility;
 
-    // return true if everything is correct else return false
-    $job->save() ? true : redirect()->back();
-    
-}
+        // Get the data from the request
+        $job                    = new Job();
+        $job->user_id           = auth()->user()->id;
+        $job->title             = $request->title;
+        $job->description       = $request->description;
+        $job->location          = $request->location;
+        $job->type              = $request->type;
+        $job->encourage_type    = $request->encourage_type;
+        $job->experience        = $request->experience;
+        $job->education         = $request->education;
+        $job->pay               = $request->pay;
+        $job->skills            = $request->skills;
+        $job->deadline          = $request->deadline;
+        $job->language          = $request->language;
+        $job->status            = $request->status;
+        $job->visibility        = $request->visibility;
+
+        // return true if everything is correct else return false
+        $job->save() ? true : redirect()->back();
+    }
 
     /**
      * Display the specified resource.
@@ -91,7 +91,7 @@ class JobController extends Controller
      */
     public function update(UpdateJobRequest $request, Job $job)
     {
-            // Get the data from the request
+        // Get the data from the request
         if (auth()->user()->id  == $job->user_id) {
             $job->title             = $request->title;
             $job->description       = $request->description;
@@ -122,7 +122,6 @@ class JobController extends Controller
     public function destroy(Job $job)
     {
         //delete this job if he/she is the owner
-       return $job->user_id == auth()->user->id ? $job->delete() : abort(503);
-
+        return $job->user_id == auth()->user->id ? $job->delete() : abort(503);
     }
 }
