@@ -37,7 +37,7 @@
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>Africon</span>
+        <img src="assets/img/main-logo.png" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
@@ -47,7 +47,7 @@
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="{{ url('/jobs') }}">Jobs</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="/register">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -68,7 +68,7 @@
           </h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="/register" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -100,7 +100,7 @@
               </p>
               <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                  <span>Learn More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>

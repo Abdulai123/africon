@@ -36,17 +36,17 @@
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>Africon</span>
+        <img src="assets/img/main-logo.png" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">About</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">Team</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="{{ url('/jobs') }}">Jobs</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
