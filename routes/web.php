@@ -17,6 +17,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+// **************************
+// **** LEAVE BELOW HERE ****
+// **************************
+
+
+// This is a coming soon routes
+Route::get('/learn', function () {
+    return view('learn.landing-page');
+});
+
+Route::get('/communities', function () {
+    return view('communities.landing-page');
+});
+
+
+// **************************
+// ***** LEAVE UP HERE ******
+// **************************
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -27,6 +46,9 @@ Route::get('/', function () {
 Route::get('/jobs', [JobController::class, 'index'])->name('jobs.job-listing');
 
 Route::get('/job', [JobController::class, 'create'])->name('jobs.job-single');
+
+Route::get('/dashboard/job/create-only', [JobController::class, 'store'])->middleware(['auth', 'verified']);
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

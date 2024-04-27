@@ -34,16 +34,16 @@
                     <hr/>
                     <div class="card">
                         <div class="card-body">
-                            <form method="POST" id="myForm" action="">
+                            <form method="POST" id="myForm" action="/dashboard/job/create-only">
                                 @csrf
                                 <div class="border p-3 rounded">
                                     @include('flash-message.flash-msg')
-                                    <div class="mb-3 select2-sm">
+                                    {{-- <div class="mb-3 select2-sm">
                                         <label for="Country" class="form-label">Country</label>
                                         <select class="single-select" id="Country" name="Country" required>
                                             <option value="00">Country one</option>
                                         </select>
-                                    </div>
+                                    </div> --}}
                                     <div class="mb-3 select2-sm">
                                         <label for="title" class="form-label">Title</label>
                                         <input type="text" class="form-control" id="title" name="title"
@@ -62,7 +62,10 @@
                                     <div class="mb-3 select2-sm">
                                         <label for="type" class="form-label">Type</label>
                                         <select class="single-select" id="type" name="type" required>
-                                            <option value="00">Type one</option>
+                                            <option value="Full Time">Full Time</option>
+                                            <option value="Part Time">Part Time</option>
+                                            <option value="Contract">Contract</option>
+
                                         </select>
                                     </div>
                                     <div class="mb-3 select2-sm">
@@ -82,7 +85,7 @@
                                                placeholder="Education" required>
                                     </div>
                                     <div class="mb-3 select2-sm">
-                                        <label for="pay" class="form-label">Pay</label>
+                                        <label for="pay" class="form-label">Min Pay</label>
                                         <input type="number" class="form-control" id="pay" name="pay"
                                                placeholder="Pay" required>
                                     </div>

@@ -8,7 +8,7 @@
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
           </div>
           <div class="col-lg-6">
-            <form action="" method="post">
+            <form action="" method="">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
@@ -36,20 +36,20 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Mission</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/#home">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/#team">Team</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/#contact">Contact</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/#privacy">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Mission</h4>
+            <h4>Explore</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/jobs">Jobs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/learn">Learn</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/communities">Communities</a></li>
             </ul>
           </div>
 
