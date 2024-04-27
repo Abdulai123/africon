@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\JobController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,6 +21,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
+Route::get('/jobs', [JobController::class, 'index'])->name('jobs.job-listing');
+
+Route::get('/job', [JobController::class, 'create'])->name('jobs.job-single');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -31,4 +39,5 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
 

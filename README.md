@@ -20,12 +20,3 @@ Our endeavor is divided into four integral parts, each crucial for the success o
 Let's embark on this journey together, fueled by passion, innovation, and a shared commitment to empower Africa's tech community. Let's make Africon not just a project, but a catalyst for positive change in the African tech landscape.
 
 let start
-
-job posting table
-
-id, user_id, title, description, 
-location, type, encourage type, 
-experience, education, pay, skills, deadline, language, status, visibility, 
-
-comapny table
-id, user_id, name, description, indestery, website, contact, est. location
