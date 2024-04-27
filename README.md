@@ -18,3 +18,5 @@ Our endeavor is divided into four integral parts, each crucial for the success o
  
      
 Let's embark on this journey together, fueled by passion, innovation, and a shared commitment to empower Africa's tech community. Let's make Africon not just a project, but a catalyst for positive change in the African tech landscape.
+
+let start
