@@ -22,7 +22,7 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="{{ url('/') }}" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>Africon</span>
+              <img src="assets/img/main-logo.png" alt="">
             </a>
             <p>Join us in shaping a future where every African has the opportunity to thrive.</p>
             <div class="social-links mt-3">

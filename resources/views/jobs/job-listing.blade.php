@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -37,17 +37,17 @@
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>Africon</span>
+        <img src="assets/img/main-logo.png" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">About</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">Team</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="{{ url('/jobs') }}">Jobs</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/') }}">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -102,7 +102,7 @@
                   Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
                 </p>
                 <div class="read-more">
-                  <a href="{{ url('/job') }}">Read More</a>
+                  <a href="{{ url('/job') }}">Apply Now</a>
                 </div>
               </div>
 
@@ -132,7 +132,7 @@
                   Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
                 </p>
                 <div class="read-more">
-                <a href="{{ url('/job') }}">Read More</a>
+                  <a href="{{ url('/job') }}">Apply Now</a>
                 </div>
               </div>
 
@@ -162,7 +162,7 @@
                   Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
                 </p>
                 <div class="read-more">
-                <a href="{{ url('/job') }}">Read More</a>
+                  <a href="{{ url('/job') }}">Apply Now</a>
                 </div>
               </div>
 
@@ -192,7 +192,7 @@
                   Quia sed sunt. Ea asperiores expedita et et delectus voluptates rerum. Id saepe ut itaque quod qui voluptas nobis porro rerum. Quam quia nesciunt qui aut est non omnis. Inventore occaecati et quaerat magni itaque nam voluptas. Voluptatem ducimus sint id earum ut nesciunt sed corrupti nemo.
                 </p>
                 <div class="read-more">
-                <a href="{{ url('/job') }}">Read More</a>
+                <a href="{{ url('/job') }}">Apply Now</a>
                 </div>
               </div>
 

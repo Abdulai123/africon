@@ -16,7 +16,7 @@ class JobController extends Controller
     public function index()
     {
         //
-        return view('Jobs.job-single');
+        return view('Jobs.job-listing');
     }
 
     /**
@@ -26,7 +26,7 @@ class JobController extends Controller
      */
     public function create()
     {
-        //
+        return view('Jobs.job-single');
     }
 
     /**

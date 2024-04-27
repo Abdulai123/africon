@@ -24,8 +24,9 @@ Route::get('/', function () {
 
 
 
+Route::get('/jobs', [JobController::class, 'index'])->name('jobs.job-listing');
 
-Route::get('/job', [JobController::class, 'index'])->name('jobs.job-single');
+Route::get('/job', [JobController::class, 'create'])->name('jobs.job-single');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
