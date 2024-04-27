@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\JobController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -22,15 +23,9 @@ Route::get('/', function () {
 
 
 
-Route::get('/jobs', function () {
-    // Redirect to the specified view
-    return view('jobs.job-listing');
-});
 
-Route::get('/job', function () {
-    // Redirect to the specified view
-    return view('jobs.job-single');
-});
+
+Route::get('/job', [JobController::class, 'index'])->name('jobs.job-single');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
