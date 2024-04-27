@@ -46,6 +46,8 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="{{ url('/jobs') }}">Jobs</a></li>
+          <li><a href="{{ url('/learn') }}">Learn</a></li>
+          <li><a href="{{ url('/communities') }}">Communities</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="/register">Get Started</a></li>
         </ul>
@@ -61,11 +63,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Africon - Connecting Africans with Opportunities</h1>
+          {{-- <h1 data-aos="fade-up">Africon - Connecting Africans with Opportunities</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">
             Ready to take the next step in your career? Africon offers tailored job opportunities for Africans at every career stage. 
-            Whether you're a recent graduate or a seasoned professional, find your perfect match with us
-          </h2>
+            We teach your everything from Zero - Hero 100% free!
+            Find Your local community here, all of us here are africans.
+            Whether you're a recent graduate or a seasoned professional, find your perfect match with us, you are not alone let do it together.
+          </h2> --}}
+          <h1 data-aos="fade-up">Africon - Connecting Africans with Opportunities</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Join Africon for tailored job opportunities, career guidance, and free learning courses. Connect with fellow Africans and unlock your potential from 0 to hero.</h2>
+          
+          
+
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="/register" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">

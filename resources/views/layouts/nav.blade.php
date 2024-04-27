@@ -23,12 +23,12 @@
         <li class="menu-label">Menus</li>
         <li>
             <ul>
-            <li> <a href="{{url('create-job')}}"><i class="bx bx-right-arrow-alt"></i>Job offer</a></li>
+            <li> <a href="{{url('create-job')}}"><i class="bx bx-right-arrow-alt"></i>Post a Job</a></li>
             </ul>
         </li>
         <li>
             <ul>
-            <li> <a href="{{route('dashboard')}}"><i class="bx bx-right-arrow-alt"></i>Job list</a></li>
+            <li> <a href="{{route('dashboard')}}"><i class="bx bx-right-arrow-alt"></i>Job History</a></li>
             </ul>
         </li>
 
