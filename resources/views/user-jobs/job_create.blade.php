@@ -71,7 +71,10 @@
                                     <div class="mb-3 select2-sm">
                                         <label for="encourage_type" class="form-label">Encourage Type</label>
                                         <select class="single-select" id="encourage_type" name="encourage_type" required>
+
                                             <option value="00">Encourage Type one</option>
+                                            <option value="00">Skill one</option>
+                                            <option value="01">Skill two</option>
                                         </select>
                                     </div>
                                     <div class="mb-3 select2-sm">
@@ -92,19 +95,19 @@
                                     
                                     <div class="mb-3 select2-sm">
                                         <label for="skills" class="form-label">Skills</label>
-                                        <select class="multiple-select" id="skills" name="skills[]" multiple="multiple" required>
+                                        <select class="single-select" id="skills" name="skills"  required>
                                             <option value="00">Skill one</option>
                                             <option value="01">Skill two</option>
                                         </select>
                                     </div>
                                     <div class="mb-3 select2-sm">
-                                        <label for="date-time" class="form-label">Date Time</label>
-                                        <input type="text" class="form-control" id="date-time" name="date-time"
+                                        <label for="date-time" class="form-label">Deadline</label>
+                                        <input type="text" class="form-control" id="date-time" name="deadline"
                                                placeholder="Date Time" required>
                                     </div>
                                     <div class="mb-3 select2-sm">
                                         <label for="language" class="form-label">Language</label>
-                                        <select class="multiple-select" id="language" name="language[]" multiple="multiple" required>
+                                        <select class="single-select" id="language" name="language"  required>
                                             <option value="00">Language one</option>
                                             <option value="01">Language two</option>
                                         </select>

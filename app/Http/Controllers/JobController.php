@@ -56,7 +56,7 @@ class JobController extends Controller
     $job->visibility        = $request->visibility;
 
     // return true if everything is correct else return false
-    $job->save() ? true : redirect()->back();
+   return $job->save() ? redirect('/dashboard') : redirect()->back();
     
 }
 
