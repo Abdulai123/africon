@@ -1,6 +1,6 @@
-# Africon - Solving UN Sustainable Development Goals (SGDs) #4 and #8 by offering an inclusive tech commuinity, learning platform and job listing portal tailored mainly towards the needs of Africans.
+# Africon - Solving UN Sustainable Development Goals (SGDs) #4 and #8 by offering an inclusive tech community, learning platform, and job listing portal tailored mainly towards the needs of Africans.
 
-Greetings everyone, and a warm welcome to our Africon project!
+Greetings everyone, and a warm welcome to our African project!
 
 As we delve into this exhilarating hackathon challenge, we are on a mission to code our project before the clock strikes 12 PM on the 27th, or as some might say, before the stroke of midnight on the 28th.
 
